@@ -1,7 +1,7 @@
+// Packages
 const path = require('path');
 const express = require('express');
 const fs = require('fs');
-// const { readFile } = require('fs/promises');
 var newId = require('newId');
 
 const app = express();
