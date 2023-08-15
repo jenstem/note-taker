@@ -168,8 +168,6 @@ const renderNoteList = async (notes) => {
   if (window.location.pathname === '/notes') {
     noteListItems.forEach((note) => noteList[0].append(note));
   }
-  // activeNote.addEventListener('click', note);
-  // renderActiveNote();
 };
 
 // Gets notes from the db and renders them to the sidebar
@@ -180,7 +178,6 @@ if (window.location.pathname === '/notes') {
   newNoteBtn.addEventListener('click', handleNewNoteView);
   noteTitle.addEventListener('keyup', handleRenderSaveBtn);
   noteText.addEventListener('keyup', handleRenderSaveBtn);
-  // activeNote.addEventListener('click', note);
 }
-// renderActiveNote();
+
 getAndRenderNotes();
