@@ -85,6 +85,6 @@ GitHub URL:  https://github.com/jenstem
 <a id='notes'></a>
 ## Notes:
 
-I received help from a tutor, [Scott Everett](https://calendly.com/fsf-tutor-team/scott-everett?month=2023-06).
+I received help on the helper.js file and takeNotes.js file from a tutor, [Scott Everett](https://calendly.com/fsf-tutor-team/scott-everett?month=2023-06).
 
-I also received help from BCS Learning Assistants (Spider & Shaun).
+I also received help on creating the unique id's from BCS Learning Assistants (Spider & Shaun).
