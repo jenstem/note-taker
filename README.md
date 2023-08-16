@@ -17,7 +17,7 @@
 
 As a current student, I wanted to create a Note Taker that would help a user to create a list of notes.  The Note Taker would store necessary information and allow the user to save it to the list.
 
-The user wouldn't need to style or add any code to create the SVG file, simply the information when prompted.  The logo would then be generated using the information that the user provided.  Allowing the user to quickly and easily generate their own logo.
+The user would be able to refresh the page and all the saved notes would remain.  The user would also be able to open note that was already saved.  Allowing the user to quickly and easily a note list.
 ##
 
 <a id='userstory'></a>
@@ -48,7 +48,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 <a id='installation'></a>
 ## Installation
-Installation command code is not required.
+Install with the command line "npm i uuid" then initiate with the command line "node server.js".
 ##
 
 <a id='usage'></a>
@@ -64,16 +64,16 @@ This app is meant to help the user quickly and easily save notes.
 ## Screenshots:
 ##
 
-![](https://github.com/jenstem/readme-generator/blob/main/assets/getting-started.png) <br>
-*This is a screenshot of how to initiate the Read Me Generator in the terminal*
+![](https://github.com/jenstem/note-taker/blob/main/public/assets/images/newnote.png) <br>
+*This is a screenshot of how a saved note looks*
 ##
 
-![](https://github.com/jenstem/readme-generator/blob/main/assets/readme-example.png) <br>
-*This is a screenshot of the finished README file*
+![](https://github.com/jenstem/note-taker/blob/main/public/assets/images/opennote.png) <br>
+*This is a screenshot of how re-opening a note looks*
 ##
 
 [Click to watch the video!](https://youtu.be/Bu0hCR7xznU) <br>
-*This is a video of how to use the Read Me Generator*
+*This is a video of how to use the Note Taker app*
 ##
 
 <a id='contact'></a>
@@ -86,3 +86,5 @@ GitHub URL:  https://github.com/jenstem
 ## Notes:
 
 I received help from a tutor, [Scott Everett](https://calendly.com/fsf-tutor-team/scott-everett?month=2023-06).
+
+I also received help from BCS Learning Assistants (Spider & Shaun).
