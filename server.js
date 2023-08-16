@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const { readFromFile, writeToFile } = require('./helpers');
-const uuid = require('uuid/v1');
+const uuid = require('uuid');
 
 const app = express();
 const PORT = 3001;
@@ -29,7 +29,7 @@ app.post("/api/notes", async (req, res) => {
     let notes = await readFromFile('db/db.json');
     let parsedNotes = JSON.parse(notes);
     let { title, text } = req.body;
-    let newNote = { title, text };
+    let newNote = { id: uuid.v4(), title, text };
     let updatedNotes = [...parsedNotes, newNote];
     await writeToFile('db/db.json', JSON.stringify(updatedNotes));
     let overwrittenNotes = await readFromFile('db/db.json');
