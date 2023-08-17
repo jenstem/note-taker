@@ -1,4 +1,4 @@
-# Note Taker Starter Code
+# Employee Tracker
 
 ## Table of Contents
 + [Description](#description)
