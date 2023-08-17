@@ -1,4 +1,4 @@
-# Employee Tracker
+# Note Taker
 
 ## Table of Contents
 + [Description](#description)
@@ -48,7 +48,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 <a id='installation'></a>
 ## Installation
-Install with the command line "npm i uuid" then initiate with the command line "node server.js".
+No installation required.
 ##
 
 <a id='usage'></a>
@@ -70,10 +70,6 @@ This app is meant to help the user quickly and easily save notes.
 
 ![](https://github.com/jenstem/note-taker/blob/main/public/assets/images/opennote.png) <br>
 *This is a screenshot of how re-opening a note looks*
-##
-
-[Click to watch the video!](https://youtu.be/Bu0hCR7xznU) <br>
-*This is a video of how to use the Note Taker app*
 ##
 
 <a id='contact'></a>
